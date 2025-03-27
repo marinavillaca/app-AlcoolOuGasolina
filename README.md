@@ -67,6 +67,6 @@ git clone https://github.com/seu-usuario/alcool-ou-gasolina.git <br>
 5. Abra um Pull Request
 
 ### 📄 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes. <br>
+Este projeto está licenciado sob a Licença MIT <br>
 
 Desenvolvido com ❤️ por Marina Villaça 
