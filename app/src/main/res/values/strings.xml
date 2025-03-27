@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlcoolOuGasolina</string>
+    <string name="main_description">App Álcool Ou Gasolina\n</string>
+    <string name="btn_enviar_1">Enviar  </string>
+    <string name="btn_enviar_2">Enviar  </string>
+    <string name="btn_enviar_3">AVANÇAR</string>
+
+
+</resources>

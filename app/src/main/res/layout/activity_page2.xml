@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2">
+
+    <TextView
+        android:id="@+id/lbl_hello"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Consumo"
+        android:textColor="@color/main_description"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="388dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/fuel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo Gasolina"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_margin="12dp" />
+
+    <EditText
+        android:id="@+id/txt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite km/l da Gasolina "
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_enviar_1"
+        android:layout_width="match_parent"
+        android:text="@string/btn_enviar_1"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/btn_color_enviar"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo Álcool"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_margin="12dp"/>
+
+    <EditText
+        android:id="@+id/txt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite km/l do Álcool "
+        android:inputType="numberDecimal"
+        android:layout_margin="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_enviar_2"
+        android:layout_width="match_parent"
+        android:text="@string/btn_enviar_1"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/btn_color_enviar"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btn_avancar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="13dp"
+        android:text="AVANÇAR"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/btn_color_avancar"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp" />
+
+</TableLayout>
